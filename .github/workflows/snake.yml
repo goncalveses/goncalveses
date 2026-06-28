@@ -1,0 +1,48 @@
+name: Snake Game
+
+on:
+  issues:
+    types: [opened]
+
+# Serialize moves so two players never push at the same time
+concurrency:
+  group: snake-game
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  move:
+    # Only react to issues created by the game controls
+    if: startsWith(github.event.issue.title, 'snake|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Apply move
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_ACTOR: ${{ github.event.issue.user.login }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node game/snake.js
+
+      - name: Commit board
+        run: |
+          git config user.name "Esdras Gonçalves"
+          git config user.email "32415522+goncalveses@users.noreply.github.com"
+          git add README.md game/state.json
+          git commit -m "🐍 snake: move by @${{ github.event.issue.user.login }}" || echo "nothing to commit"
+          git push
+
+      - name: Close issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >
+          gh issue close ${{ github.event.issue.number }}
+          -c "🐍 Move applied! See the updated board on the profile README. Thanks for playing, @${{ github.event.issue.user.login }}! Tap another arrow to keep going."
