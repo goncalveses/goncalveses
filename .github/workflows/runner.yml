@@ -1,4 +1,4 @@
-name: Snake Game
+name: Outrun the AI
 
 on:
   issues:
@@ -6,7 +6,7 @@ on:
 
 # Serialize moves so two players never push at the same time
 concurrency:
-  group: snake-game
+  group: runner-game
   cancel-in-progress: false
 
 permissions:
@@ -16,7 +16,7 @@ permissions:
 jobs:
   move:
     # Only react to issues created by the game controls
-    if: startsWith(github.event.issue.title, 'snake|')
+    if: startsWith(github.event.issue.title, 'play|')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,14 +30,14 @@ jobs:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_ACTOR: ${{ github.event.issue.user.login }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: node game/snake.js
+        run: node game/runner.js
 
-      - name: Commit board
+      - name: Commit scene
         run: |
           git config user.name "Esdras Gonçalves"
           git config user.email "32415522+goncalveses@users.noreply.github.com"
           git add README.md game/state.json
-          git commit -m "🐍 snake: move by @${{ github.event.issue.user.login }}" || echo "nothing to commit"
+          git commit -m "🤖 outrun-the-ai: move by @${{ github.event.issue.user.login }}" || echo "nothing to commit"
           git push
 
       - name: Close issue
@@ -45,4 +45,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: >
           gh issue close ${{ github.event.issue.number }}
-          -c "🐍 Move applied! See the updated board on the profile README. Thanks for playing, @${{ github.event.issue.user.login }}! Tap another arrow to keep going."
+          -c "🤖 Move applied! See the updated scene on the profile README. Thanks for playing, @${{ github.event.issue.user.login }}! Tap another control to keep going."

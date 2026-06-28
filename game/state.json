@@ -1,20 +1,11 @@
 {
-  "width": 13,
-  "height": 11,
-  "snake": [
-    [
-      6,
-      5
-    ]
-  ],
-  "dir": "up",
-  "food": [
-    12,
-    9
-  ],
+  "hero": "BYTE",
+  "pose": "run",
+  "incoming": "ground",
   "score": 0,
   "best": 0,
-  "moves": 0,
+  "distance": 0,
+  "alive": true,
   "lastPlayer": null,
-  "message": "New game! Tap an arrow below to move. 🐍"
+  "message": "🔁 New run! The AI is generating the world — go!"
 }
