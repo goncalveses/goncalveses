@@ -95,20 +95,15 @@ $esdras = [
 
 ## 📊 GitHub Stats
 
-<table align="center">
-  <tr>
-    <td>
-      <img height="170" src="https://github-readme-stats.vercel.app/api?username=goncalveses&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" alt="stats" />
-    </td>
-    <td>
-      <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=goncalveses&layout=compact&hide_border=true&theme=tokyonight&langs_count=8&hide=html" alt="top langs" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=goncalveses&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="trophies" />
+</p>
 
-<div align="center">
-  <img height="170" src="https://streak-stats.demolab.com/?user=goncalveses&hide_border=true&theme=tokyonight" alt="streak" />
-</div>
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=goncalveses&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=tokyonight&title_color=6C63FF&icon_color=6C63FF" alt="stats" />
+  &nbsp;
+  <img height="180" src="https://streak-stats.demolab.com/?user=goncalveses&hide_border=true&theme=tokyonight&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" alt="streak" />
+</p>
 
 ---
 ## 🌐 Languages · Idiomas
@@ -116,6 +111,16 @@ $esdras = [
 <p align="center">
   <img src="https://flagcdn.com/br.svg" width="22" /> Português (Nativo) &nbsp;&nbsp;|&nbsp;&nbsp;
   <img src="https://flagcdn.com/us.svg" width="22" /> English (Basic)
+</p>
+
+---
+
+## 🎯 Hobbies · Hobbies
+
+<p align="center">
+  📺 Sci-fi series &amp; movies &nbsp;·&nbsp; 🎸 Playing guitar &nbsp;·&nbsp; 📚 Learning new things
+  <br/><br/>
+  🍥 Anime &nbsp;·&nbsp; ⚽ Football &nbsp;·&nbsp; 🏋️ Gym
 </p>
 
 ---
