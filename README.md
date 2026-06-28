@@ -96,7 +96,7 @@ $esdras = [
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=goncalveses&show_icons=true&count_private=true&hide_border=true&rank_icon=github&theme=tokyonight&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=1a1b27&card_width=500&custom_title=Esdras%20Gon%C3%A7alves%20%E2%80%94%20GitHub%20Stats&show=reviews,prs_merged,prs_merged_percentage,discussions_started" alt="Esdras Gonçalves — GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=goncalveses&show_icons=true&count_private=true&hide_border=true&rank_icon=github&theme=tokyonight&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=1a1b27&card_width=850&custom_title=Esdras%20Gon%C3%A7alves%20%E2%80%94%20GitHub%20Stats&show=reviews,prs_merged,prs_merged_percentage,discussions_started" alt="Esdras Gonçalves — GitHub Stats" />
 </p>
 
 ---
