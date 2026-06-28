@@ -17,8 +17,8 @@
 
 ## 👨‍💻 About Me · Sobre Mim
 
-🇺🇸 **Full-Stack Developer** focused on web systems and game servers, working from the database up to the interface.
-<br/>🇧🇷 **Desenvolvedor Full-Stack** focado em sistemas web e servidores de jogos, atuando do banco de dados à interface.
+<img src="https://flagcdn.com/20x15/us.png" alt="EN" /> **Full-Stack Developer** focused on web systems and game servers, working from the database up to the interface.
+<br/><img src="https://flagcdn.com/20x15/br.png" alt="PT" /> **Desenvolvedor Full-Stack** focado em sistemas web e servidores de jogos, atuando do banco de dados à interface.
 
 - 🐘 Day-to-day with **PHP + MySQL** back-ends and **HTML/CSS/JS** front-ends.
 - 🎮 Build **game servers & emulators** in **C#**, **C/C++** and **Lua**.
