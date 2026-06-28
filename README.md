@@ -96,10 +96,6 @@ $esdras = [
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=goncalveses&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="trophies" />
-</p>
-
-<p align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=goncalveses&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=tokyonight&title_color=6C63FF&icon_color=6C63FF" alt="stats" />
   &nbsp;
   <img height="180" src="https://streak-stats.demolab.com/?user=goncalveses&hide_border=true&theme=tokyonight&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" alt="streak" />
