@@ -111,34 +111,6 @@ $esdras = [
 </div>
 
 ---
-
-## 🎮 Outrun the AI — Endless Runner
-
-> 🤖 **BYTE** runs through a world an **unpredictable AI** keeps generating.
-> **Jump** the bugs 👾, **duck** the drones 🛸 — how far can you get?
-
-<!-- RUNNER:START -->
-<div align="center">
-
-**🤖 Outrun the AI**  ·  Score: **0**  ·  Best: **0**  ·  Distance: **0**
-
-```
-🟦🟦☁️🟦🟦🟦🟦☁️🟦🟦🟦
-🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
-🟦🤖🟦🟦🟦🟦🟦🟦👾🟦🟦
-🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
-```
-
-<p align="center">[🦘 Jump](https://github.com/goncalveses/goncalveses/issues/new?title=play%7Cjump&body=Just%20press%20the%20green%20button%20below%20to%20JUMP.%0AThe%20AI%20spawns%20the%20next%20obstacle%20and%20the%20README%20updates%20in%20~30s.%20%F0%9F%A4%96) &nbsp;&nbsp;&nbsp; [🦆 Duck](https://github.com/goncalveses/goncalveses/issues/new?title=play%7Cduck&body=Just%20press%20the%20green%20button%20below%20to%20DUCK.%0AThe%20AI%20spawns%20the%20next%20obstacle%20and%20the%20README%20updates%20in%20~30s.%20%F0%9F%A4%96) &nbsp;&nbsp;&nbsp; [🏃 Run](https://github.com/goncalveses/goncalveses/issues/new?title=play%7Crun&body=Just%20press%20the%20green%20button%20below%20to%20RUN.%0AThe%20AI%20spawns%20the%20next%20obstacle%20and%20the%20README%20updates%20in%20~30s.%20%F0%9F%A4%96)</p>
-
-_🔁 New run! The AI is generating the world — go!_
-
-<sub>👾 ground = <b>Jump</b> &nbsp;·&nbsp; 🛸 air = <b>Duck</b> &nbsp;·&nbsp; clear = <b>Run</b>. Turn-based: click → press <b>Create</b> on the issue → the world updates in ~30s. 🤖</sub>
-</div>
-<!-- RUNNER:END -->
-
----
-
 ## 🌐 Languages · Idiomas
 
 <p align="center">
